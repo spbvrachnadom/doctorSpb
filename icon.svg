@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 192 192"><path fill="#e08524" d="M75.3 73.4H18.4l45.3 34.3L48.3 163l46.1-32.3 48.2 34.6-16.9-58.3 44.9-33.6H115l-20.5-55-19.2 55z"/><path d="m96.7 18.8 18.2 8.2 16.5 44.3h-15.1L96.7 18.8zm-47 146 18.7 9.9 42.6-29.9-16.5-11.4-44.8 31.4zm79.1-56.8 17.4 9.4 18.6 60.1-19.7-11.3-16.3-58.2z"/><path d="m173.1 74.3 17.8 9.2-44.7 34-17.4-9.4 44.3-33.8z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Head -->
+  <circle cx="32" cy="16" r="10" fill="#FFD1C1" stroke="#333" stroke-width="2"/>
+
+  <!-- Body -->
+  <path d="M22 28 L42 28 L50 52 L14 52 Z" fill="#E0E0E0" stroke="#333" stroke-width="2"/>
+
+  <!-- Stethoscope -->
+  <circle cx="32" cy="44" r="4" fill="#999" stroke="#333" stroke-width="2"/>
+  <path d="M32 44 L32 38" stroke="#333" stroke-width="2"/>
+  <path d="M32 38 Q30 30, 22 30 Q18 30, 18 34 T22 38" stroke="#333" stroke-width="2" fill="none"/>
+  <circle cx="22" cy="38" r="2" fill="#999" stroke="#333" stroke-width="1"/>
+
+  <!-- Eyes and Mouth -->
+  <circle cx="28" cy="14" r="1" fill="#333"/>
+  <circle cx="36" cy="14" r="1" fill="#333"/>
+  <path d="M28 18 Q32 22, 36 18" stroke="#333" stroke-width="1" fill="none"/>
+</svg>

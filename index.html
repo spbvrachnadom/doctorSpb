@@ -1,33 +1,116 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Врач на дом - Вывод из запоя на дому</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
-
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Врач на дом</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Наши услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>+7 (993) 477-36-87</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Вывод из запоя на дому</h2>
+            <p>Быстрая и качественная помощь от опытных специалистов в любое время суток.</p>
+            <a href="#contact" class="cta-button">Оформить вызов</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы - команда врачей анестезиологов-реаниматологов, помогаем пациентам избавиться от похмелья и выйти из запоя с помощью капельниц.</p>
+            <p>Наши специалисты имеют большой опыт работы в наркологии, реанимации, а также в лечении COVID-19.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши Услуги</h2>
+            <h3>Врач на дом:</h3>
+            <ul>
+                <li>Вывод из запоя на дому</li>
+                <li>Срочное снятие алкогольной интоксикации (похмелье)</li>
+                <li>Капельницы для поддержки функции печени</li>
+            </ul>
+            <h3>Медсестра на дому:</h3>
+            <ul>
+                <li>Постановка периферического катетера</li>
+                <li>Выполнение инъекций на дому (внутривенные, внутримышечные, подкожные)</li>
+                <li>Выполнение внутривенных инфузий</li>
+                <li>Постановка мочевого катетера</li>
+                <li>Перевязки любой сложности</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Наши Преимущества</h2>
+            <ul>
+                <li>Доступные цены</li>
+                <li>Круглосуточно и анонимно</li>
+                <li>Высокая квалификация, бережное отношение к венам</li>
+                <li>Выезд в любой район Санкт-Петербурга и Ленобласть</li>
+                <li>Строгое соблюдение правил асептики и антисептики</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <h2>Оформить вызов</h2>
+            <form action="mailto:kamilyusibovaz@mail.ru" method="post" enctype="text/plain">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="comment">Комментарий:</label>
+                <textarea id="comment" name="comment"></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Связаться с нами: +7 (993) 477-36-87</p>
+            <p>Электронная почта: kamilyusibovaz@mail.ru</p>
+            <p>&copy; 2024 Врач на дом. Все права защищены.</p>
+        </div>
+    </footer>
 
 </body>
-
 </html>
